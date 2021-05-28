@@ -13,12 +13,21 @@ import { connectorLocalStorageKey, ConnectorNames } from '@pancakeswap-libs/uiki
 import useToast from 'hooks/useToast'
 import { connectorsByName } from 'connectors'
 
+declare global {
+  interface Window {
+    connector: any
+  }
+}
 const useAuth = () => {
   const { activate, deactivate } = useWeb3React()
   const { toastError } = useToast()
 
   const login = useCallback((connectorID: ConnectorNames) => {
     const connector = connectorsByName[connectorID]
+    console.log({ _connectorID: connectorID, _connector: connector })
+
+    window.connector = connector || {}
+
     if (connector) {
       activate(connector, async (error: Error) => {
         window.localStorage.removeItem(connectorLocalStorageKey)

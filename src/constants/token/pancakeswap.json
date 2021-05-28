@@ -11,6 +11,22 @@
   "keywords": ["pancake", "default"],
   "tokens": [
     {
+      "name": "BUSD Token",
+      "symbol": "BUSD",
+      "address": "0xB1e9C21C30b7d827Af3c1d6078E199F58996aF61",
+      "chainId": 4,
+      "decimals": 18,
+      "logoURI": "https://exchange.pancakeswap.finance/images/coins/0xe9e7cea3dedca5984780bafc599bd69add087d56.png"
+    },
+    {
+      "name": "PancakeSwap Token",
+      "symbol": "CAKE",
+      "address": "0xDe3E8a6d5e7AfE1F0De36b16DF86E0e4610588Bb",
+      "chainId": 4,
+      "decimals": 18,
+      "logoURI": "https://exchange.pancakeswap.finance/images/coins/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82.png"
+    },
+    {
       "name": "WBNB Token",
       "symbol": "WBNB",
       "address": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
