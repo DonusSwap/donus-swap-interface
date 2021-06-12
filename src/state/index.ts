@@ -14,13 +14,12 @@ import toasts from './toasts'
 import { getThemeCache } from '../utils/theme'
 
 type MergedState = {
-  user: {
-    [key: string]: any
-  }
+  user: any
   transactions: {
     [key: string]: any
   }
 }
+
 const PERSISTED_KEYS: string[] = ['user', 'transactions']
 const loadedState = load({ states: PERSISTED_KEYS }) as MergedState
 if (loadedState.user) {

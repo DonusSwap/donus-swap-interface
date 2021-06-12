@@ -6,7 +6,7 @@
   "dependencies": {
     "@binance-chain/bsc-connector": "^1.0.0",
     "@crowdin/crowdin-api-client": "^1.8.16",
-    "@donusswap-libs/sdk": "^1.0.3",
+    "@donusswap-libs/sdk": "^1.0.31",
     "@ethersproject/experimental": "^5.0.1",
     "@pancakeswap-libs/sdk": "1.0.1",
     "@pancakeswap-libs/uikit": "^0.23.0",
