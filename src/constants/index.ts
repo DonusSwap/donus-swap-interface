@@ -1,6 +1,7 @@
 import { ChainId, JSBI, Percent, Token, WETH } from '@donusswap-libs/sdk'
 
-export const ROUTER_ADDRESS = '0x4081F2755831cE68Bd3B091383e853796a477bF4' // rinkeby
+export const ROUTER_ADDRESS = '0x9f3a8b4Bd35B310f07774944b8B9d73432BE2a4F' // rinkeby new
+// export const ROUTER_ADDRESS = '0x4081F2755831cE68Bd3B091383e853796a477bF4' // rinkeby
 // export const ROUTER_ADDRESS = '0x45E0a173a241e677AfB04D645dc686C1Bf171Fc7'
 
 // a list of tokens by chain
@@ -10,7 +11,8 @@ type ChainTokenList = {
 
 export const CAKE = new Token(
   ChainId.MAINNET,
-  '0xDe3E8a6d5e7AfE1F0De36b16DF86E0e4610588Bb', // rinkeby
+  '0x2c5ceb21BB55Eb0df887a50518Cf648Fa38b396f', // rinkeby new
+  // '0xDe3E8a6d5e7AfE1F0De36b16DF86E0e4610588Bb', // rinkeby
   // '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82',
   18,
   'CAKE',
